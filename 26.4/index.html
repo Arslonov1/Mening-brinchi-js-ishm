@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap-5.3.3-dist/css/bootstrap.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row my-4">
+            <div class="col-6 offset-3">
+                <div class="card">
+                    <div class="card-header d-flex aligin-items-center">
+                        <div class="ms-1">
+                            <label>TaskName</label>
+                            <input id="TaskName" type="text" class="form-control">
+
+                        </div>
+                        <div class="ms-1">
+                            <label>ball</label>
+                            <input id="ball" type="number" class="form-control">
+
+                        </div>
+                        <button class="btn btn-success mt-4 ms-1" onclick="addTask() ">add</button>
+                    </div>
+                    <div class="card-body py-4" id="display"> </div>
+
+                    
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
